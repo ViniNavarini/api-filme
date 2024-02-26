@@ -40,9 +40,6 @@ class AwardsService {
         let maiorIntervalo = 0;
         let inicioIntervalo = 0;
         let fimIntervalo = 0;
-        if (produtor === "Matthew Vaughn") {
-          console.log("ok");
-        }
 
         for (let i = 1; i < anos.length; i++) {
           const intervalo = anos[i] - anos[i - 1];
